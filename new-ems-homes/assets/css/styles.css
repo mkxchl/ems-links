@@ -138,6 +138,7 @@ li {
 .desC {
   font-size: 10px;
   margin: 0 5px;
+  letter-spacing: 0.1rem;
 }
 .task-box {
   margin-top: 20px;
