@@ -21,19 +21,24 @@
     <link rel="stylesheet" href="assets/css/styles.css" />
     <link href="assets/dist/aos.css" rel="stylesheet">
   </head>
+  <!-- <style>
+    mkmk {
+      color: rgb(130, 220, 255);
+    }
+  </style> -->
   <!-- Body  -->
   <body onload="init()">
     <!--  Audio Mk  -->
     <audio id="myAudio">
-      <source src="mix/ems-mk.mp3" type="audio/mpeg" />
+      <source src="mix/mk-song-1.mp3" type="audio/mpeg" />
     </audio>
     <audio id="myOpening">
       <source src="assets/msc/start.mp3" type="audio/mpeg" />
     </audio>
     <audio id="dlg">
-      <source src="mix/ems-mk.mp3" type="audio/mpeg" />
+      <source src="mix/mk-song-1.mp3" type="audio/mpeg" />
     </audio>
-    <div class="preload">Loading</div>
+    <!-- <div class="preload">Loading</div> -->
     <div class="vidcont">
       <div class="divvideo">
         <video id="myVideo" width="100%" height="100%" style="border-radius: 30px;">
@@ -49,12 +54,11 @@
           <div class="wrapper">
             <div class="controls">
               <div class="filters">
-                <span onclick="reverse()">EMS LINKS</span>
-                <p class="desC"><b>Hello</b> <b id="spannama3"></b> Kamu bisa tekan tombol icon yang ada di pojok kanan tulisan untuk ke website selanjutnya, 
-                  <font color="green" style="font-weight: bold"> 
-                    Thanks you!
-                  </font>
-                </p>
+                <span onclick="reverse()"><i class="uil fas fa-user-astronaut mk-user"></i><b id="spannama3"></b></span>
+                <p class="desC"><b>Hello</b> <b id="spannama3"></b> Kamu bisa tekan tombol icon yang ada di pojok kanan tulisan untuk ke website selanjutnya, <font color="green" style="font-weight: bold"> Thanks you!</font></p>
+                <!-- <p class="desC auth"><b>Username :</b> <b id="spannama3"></b> </p>  </p>
+                <p class="desC"><b>Live at :</b><b><div class="jam">-:-</div></b>
+                <p class="desC date"><b>Date at :</b><b><div class="tanggal">-</div></b> </p> -->
               </div>
             </div>
             <ul class="task-box overflow">
@@ -169,6 +173,14 @@
               <li class="task">
                 <label>
                   <p>BRN</p>
+                </label>
+                <div class="settings">
+                  <i class="uil fas fa-star"></i>
+                </div>
+              </li>
+              <li class="task">
+                <label>
+                  <p>DPS</p>
                 </label>
                 <div class="settings">
                   <i class="uil fas fa-star"></i>
