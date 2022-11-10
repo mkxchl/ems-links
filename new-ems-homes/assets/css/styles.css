@@ -121,10 +121,27 @@ li {
   border-bottom: 1px solid #ccc;
 }
 .filters span {
-  margin: 0 5px;
+  margin: 1px  0 5px;
   font-size: 25px;
   color: #3c87ff;
   font-weight: bold;
+  border-radius: 15px;
+  background: rgba(58, 58, 58, 0.041);
+  padding: 10px;
+  line-height: 1.0rem;
+  top: 10px;
+}
+.filters span:hover {
+  background: rgba(255, 255, 255, 0.186);
+  color: rgba(0, 0, 0, 0.567);
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 0.5s;
+  box-shadow: inset -3px -3px 7px #ffffff, 3px 3px 5px #ceced1;
+}
+.mk-user {
+  font-size: 18px;
+  margin: 0 5px;
 }
 .heads {
   padding: 10px;
@@ -135,9 +152,14 @@ li {
   color: #2d5cfe;
   font-weight: bold;
 }
+#spannama3 {
+  font-size: 15px;
+  /* bottom: 25px; */
+}
 .desC {
   font-size: 10px;
   margin: 0 5px;
+  margin-top: 10px;
 }
 .task-box {
   margin-top: 20px;
