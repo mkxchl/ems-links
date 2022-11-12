@@ -462,7 +462,7 @@ video {
 }
 .wrapper {
   width: 300px;
-  padding: 18px 0 ;
+  padding: 10px 0 ;
   margin: 120px auto;
   border-radius: 25px;
   background: #ecf0f3;
@@ -507,7 +507,7 @@ li {
   justify-content: space-between;
 }
 .controls {
-  padding: 18px 25px;
+  /* padding: 18px 25px; */
   border-bottom: 1px solid #ccc;
 }
 .filters span {
@@ -704,8 +704,8 @@ li {
 .social-icons a.insta i {
   color: #e1306c;
 }
-.social-icons a.yt i {
-  color: #ff0000;
+.social-icons a.tt i {
+  color: #212121;
 }
 .social-icons {
   margin: 15px 0 25px 0;
