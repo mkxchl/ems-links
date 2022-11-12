@@ -31,13 +31,13 @@
   <body onload="init()">
     <!--  Audio Mk  -->
     <audio id="myAudio">
-      <source src="mix/mk-song-1.mp3" type="audio/mpeg" />
+      <source src="mix/ems-mk.mp3" type="audio/mpeg" />
     </audio>
     <audio id="myOpening">
       <source src="assets/msc/start.mp3" type="audio/mpeg" />
     </audio>
     <audio id="dlg">
-      <source src="mix/mk-song-1.mp3" type="audio/mpeg" />
+      <source src="mix/ems-mk.mp3" type="audio/mpeg" />
     </audio>
     <!-- <div class="preload">Loading</div> -->
     <div class="vidcont">
@@ -82,7 +82,7 @@
                   <p class="mk-teams-title"><b id="spannama3"></b></p>
                 </label>
                 <div class="settings">
-                  <i class="uil fas fa-user-check"></i>
+                  <i class="uil fas fa-user-circle"></i>
                 </div>
               </li>
               <h5 class="heads">Founder | Teams</h5>
@@ -104,7 +104,7 @@
               </li>
               <li class="task" onclick="location.href='https://mk-links.netlify.app/'">
                 <label>
-                  <p class="mk-teams-title">Thyan Cristian</p>
+                  <p class="mk-teams-title">Thyan Crishtian</p>
                 </label>
                 <div class="settings">
                   <img src="assets/images/thyn.jpg" class="mk-teams"/>
@@ -421,21 +421,6 @@
       </div>
     </div>
     <!-- JAVASCRIPT MAIN -->
-    <script>
-      const navBar = document.querySelector("nav"),
-        menuBtns = document.querySelectorAll(".menu-icon"),
-        overlay = document.querySelector(".overlay");
-
-      menuBtns.forEach((menuBtn) => {
-        menuBtn.addEventListener("click", () => {
-          navBar.classList.toggle("open");
-        });
-      });
-
-      overlay.addEventListener("click", () => {
-        navBar.classList.remove("open");
-      });
-    </script>
     <script src="assets/js/query.min.js"></script>
     <script src="assets/js/index.min.js"></script>
     <script src="assets/js/main.js"></script>
@@ -445,7 +430,7 @@
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     <!-- <script src="assets/js/toast.js"></script> -->
     <script>
-  AOS.init();
-</script>
+      AOS.init();
+    </script>
   </body>
 </html>
