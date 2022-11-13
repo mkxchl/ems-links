@@ -537,8 +537,8 @@ li {
   padding: 10px;
   font-size: 13px;s
   text-transform: uppercase;
-  margin-bottom: 18px;
-  padding-bottom: 16px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
   color: #2d5cfe;
   font-weight: bold;
 }
@@ -554,7 +554,7 @@ li {
 .task-box {
   margin-top: 20px;
   margin-right: 5px;
-  padding: 0 20px 10px 25px;
+  padding: 0 20px 0px 25px;
 }
 .task-box.overflow {
   overflow-y: auto;
@@ -574,15 +574,16 @@ li {
 }
 .task-box .task {
   list-style: none;
-  font-size: 17px;
+  font-size: 18px;
   margin-bottom: 30px;
   /* padding-bottom: 16px; */
   align-items: flex-start;
-  border-bottom: 1px solid #ccc;
-  background: rgba(58, 58, 58, 0.041);
-  border-radius: 25px;
+  /* border-bottom: 1px solid #ccc; */
+  background: transparent;
+  border-radius: 15px;
   transform: scale(1);
   transition: 0.5s;
+  /* box-shadow: inset -3px -3px 7px #ffffff, 3px 3px 5px #ceced1; */
 }
 .task:hover {
   background: rgba(255, 255, 255, 0.186);
@@ -590,6 +591,7 @@ li {
   cursor: pointer;
   transform: scale(1.1);
   transition: 0.5s;
+  border-radius: 15px;
   box-shadow: inset -3px -3px 7px #ffffff, 3px 3px 5px #ceced1;
 }
 .task-box .task:last-child {
@@ -601,6 +603,8 @@ li {
   display: flex;
   align-items: flex-start;
   padding: 10px;
+  top: 1px;
+  position: relative;
 }
 .task label input {
   margin-top: 5px;
@@ -634,6 +638,12 @@ li {
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.15);
   transition: transform 0.5s ease; */
 }
+.settings i .usr {
+  position: absolute;
+  right: -30px;
+  bottom: -20px;
+  /* padding: 5px 0; */
+}
 .task-box .task:last-child .task-menu {
   bottom: 0;
   transform-origin: bottom right;
@@ -660,10 +670,13 @@ li {
   color: #d62828;
 }
 .settings li i {
-  padding-right: 8px;
+  padding-right: 10px;
 }
 .settings i {
   color: #2d5cfe;
+}
+ettings li i .usr {
+  padding-right: 10px;
 }
 .settings .insta {
   color: #e1306c;
